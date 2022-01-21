@@ -1,6 +1,6 @@
-FROM mjgargani/puppeteer:trybe1.0 AS todotest
+FROM mjgargani/puppeteer:trybe1.0 AS build
 
-WORKDIR /
+WORKDIR /app/tests
 
 ADD node_modules.tar.gz .
 
