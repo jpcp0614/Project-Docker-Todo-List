@@ -22,3 +22,5 @@ services:
     depends_on:
       - todoback
       - todofront
+
+# Agradeço a ajuda dos meus amigos Antonio Nunes, Arthur Teixeira e Valdênio Martinho
